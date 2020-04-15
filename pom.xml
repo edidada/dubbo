@@ -83,7 +83,6 @@ limitations under the License.
         <module>dubbo-registry</module>
         <module>dubbo-monitor</module>
         <module>dubbo-config</module>
-        <module>dubbo-demo</module>
         <module>dubbo-plugin</module>
         <module>dependencies-bom</module>
         <module>bom</module>
