@@ -9,6 +9,8 @@ jdk:
 script:
 #    - cd dubbo-cluster
 #    - mvn clean install
+    - ls
+    - pwd
     - cd dubbo-common
     - mvn clean install
     - cd ../dubbo-config
