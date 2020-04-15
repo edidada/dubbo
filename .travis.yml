@@ -7,9 +7,9 @@ jdk:
 #    - openjdk8
 
 script:
-    - cd dubbo-cluster
-    - mvn clean install
-    - cd ../dubbo-common
+#    - cd dubbo-cluster
+#    - mvn clean install
+    - cd dubbo-common
     - mvn clean install
     - cd ../dubbo-config
     - mvn clean install
@@ -30,8 +30,8 @@ script:
     - cd ../dubbo-rpc
     - mvn clean install
     - cd ..
-    - mvn clean package
-    - mvn cobertura:cobertura
+#    - mvn clean package
+#    - mvn cobertura:cobertura
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
