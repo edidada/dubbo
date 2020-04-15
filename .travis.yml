@@ -6,7 +6,7 @@ jdk:
     - openjdk8
 
 script:
-    - mvn clean package
+    - mvn clean package -e -X
     - mvn cobertura:cobertura
 
 after_success:
